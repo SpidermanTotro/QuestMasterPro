@@ -30,21 +30,26 @@ licensing, runtime, and provenance review before it is recovered or rejected.
 ## `files (2).zip`
 
 - 86 ZIP entries
-- unrelated Book Publish Forge React prototype stored in the wrong repository
-- only `README.md` shares the same path as the current
-  `SpidermanTotro/book-publish-forge` default branch
-- 85 archived paths are not present in that current branch
+- Book Publish Forge React prototype stored in this unrelated repository
+- a byte-for-byte identical archive already exists at
+  `SpidermanTotro/book-publish-forge/files (2).zip`
+- SHA-256 for both copies:
+  `b64acb87fa90ee0bde09034f3ccf18c30ebda19e11c90af98a7266d895f80da1`
+- only `README.md` from the archive shares a path with files currently
+  extracted on the Book Publish Forge default branch
+- the other 85 archived paths are not currently extracted on that branch
 - includes AI, collaboration, publishing, ethics, export, dashboard, service
   worker, and UI prototype files
 
-This snapshot must be evaluated as an isolated historical prototype. It must not
-be merged into Book Publish Forge as one untested batch.
+The historical prototype is therefore preserved in the correct repository, but
+its contents remain unreviewed and unextracted. It must be evaluated in isolation
+and must not be merged into Book Publish Forge as one untested batch.
 
 ## Cleanup rule
 
 Do not delete, archive, rename, or rewrite this repository until:
 
 1. unique experimental Azeroth files are reviewed and preserved or explicitly rejected;
-2. the misfiled Book Publish Forge prototype is recovered to a clearly labelled review branch or explicitly rejected;
+2. the Book Publish Forge prototype is audited from its copy in the correct repository;
 3. the maintained QuestMaster repository and public links have a confirmed final name;
-4. Henric gives explicit approval for the cleanup action.
+4. Henric gives explicit approval for the cleanup action, including disposal of duplicate archives.
